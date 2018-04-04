@@ -1,0 +1,26 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" id="num1">
+	<input type="text" id="operator">
+	<input type="text" id="num2">
+	<script>
+	var num1=document.getElementById("num1");
+	var operator=document.getElementById("operator");
+	var num2=document.getElementById("num2");
+	
+	operator.style.backgroundColor="#eee";
+	operator.style.width="20px";
+	
+	if(operator == "+"){
+	   document.write=(parseInt(num1)+parseInt(num2));
+	   }
+	
+	</script>
+</body>
+</html>
